@@ -1,0 +1,659 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+        --Alata: 'Alata', sans-serif;
+        --Josefin: 'Josefin Sans', sans-serif;
+        --White: hsl(0, 0%, 100%);
+        --Black: hsl(0, 0%, 0%);
+        --Dark-Gray: hsl(0, 0%, 55%);
+        --Very-Dark-Gray: hsl(0, 0%, 41%);
+}
+
+
+/* section 1 */
+
+.loop-header{
+    background-image: url(./loopstudios-landing-page-main/images/desktop/image-hero.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.justify-content-center{
+   /* background-color: yellow; */
+   padding: 60px;
+   font-family: var(--Alata);
+}
+
+.loop-header img{
+    padding: 60px;
+}
+
+.nav-link{
+    padding-left: 40px;
+    color: white;
+    text-decoration: none;
+}
+
+.immersive{
+    /* background-color: yellow; */
+    width: 700px;
+    height: 300px;
+    position: absolute;
+    top: 230px;
+    left: 60px;
+    border: 2px solid var(--White);
+}
+
+.immersive h1{
+    font-family: var(--Josefin);
+    font-size: 74px;
+    color: var(--White);
+    padding-left: 40px;
+}
+
+/* Section 2  */
+
+.vr{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+
+.vrguy img{
+    padding:120px 80px;
+}
+
+.intractive{
+    background-color: white;
+    position: absolute;
+    top: 950px;
+    left: 600px;
+    z-index: 0;
+    padding: 50px;
+    width: fit-content;
+}
+
+.intractive h1{
+    font-family: var(--Alata);
+    font-size: 60px;
+}
+
+.intractive p {
+    font-family: var(--Josefin);
+    font-size: 18px;
+}
+
+
+
+
+/* section our creation  */
+
+.ourcreationheader{
+    /* background-color: blueviolet; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 80px;
+}
+
+.ourcreationheader h1{
+    font-family: var(--Alata);
+    font-size: 40px;
+}
+.ourcreationheader a{
+    font-family: var(--Alata);
+    padding:8px 20px;
+    color: black;
+    border: 1px solid black;
+    letter-spacing: 4px;
+    text-decoration: none;
+
+    
+}
+
+.ourcreationheader a:hover{
+    background-color: black;
+    color: white;
+    transition-delay: 1s ease-in-out ;
+}
+
+
+
+/* box section  */
+
+.creation-one-two{
+    /* background-color: blueviolet; */
+    margin-top: -50px;
+}
+
+
+.creation-box-one{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.creation-box-two{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box{
+    margin:10px 10px;
+}
+
+.deepEarth{
+    width: 280px;
+    height: 500px;
+    background-color: aquamarine;
+    background-image: url(./loopstudios-landing-page-main/images/desktop/image-deep-earth.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.nightArcade{
+    width: 280px;
+    height: 500px;
+    background-color: red;
+    background-image: url(./loopstudios-landing-page-main/images/desktop/image-night-arcade.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.Soccer{
+    width: 280px;
+    height: 500px;
+    background-color: brown;
+    background-image: url(./loopstudios-landing-page-main/images/desktop/image-soccer-team.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+   
+}
+
+.TheGrid{
+    width: 280px;
+    height: 500px;
+    background-color: burlywood;
+    background-image: url(./loopstudios-landing-page-main/images/desktop/image-grid.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.FromUp{
+    width: 280px;
+    height: 500px;
+    background-color: rgb(36, 34, 30);
+    background-image: url(./loopstudios-landing-page-main/images/desktop/image-from-above.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.Pocket{
+   width: 280px;
+    height: 500px;
+    background-color: rgb(150, 87, 5);
+    background-image: url(./loopstudios-landing-page-main/images/desktop/image-pocket-borealis.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.TheCuriosity{
+   width: 280px;
+    height: 500px;
+    background-color: rgb(15, 15, 14);
+    background-image: url(./loopstudios-landing-page-main/images/desktop/image-curiosity.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.makeitfisheye{
+    width: 280px;
+    height: 500px;
+    background-color: rgb(75, 43, 0);
+    background-image: url(./loopstudios-landing-page-main/images/desktop/image-fisheye.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.h1{
+    color: white;
+    font-family: var(--Josefin);
+    /* background-color: yellow; */
+    width: fit-content;
+    padding:400px 20px 0px 20px;
+}
+
+
+/* Footer  */
+
+Footer{
+    background-color: black;
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.list{
+    display: flex;
+    /* background-color: yellow; */
+    width: fit-content;
+    list-style: none;  
+    margin-top: 20px;
+}
+
+.list a{
+    color: white;
+    text-decoration: none;
+    font-family: var(--Alata);
+    margin:0px 20px;
+    text-align: left;
+}
+.logo-img{
+    padding: 20px;
+}
+
+.socialmedia p{
+    color: var(--White);
+    font-family: var(--Alata);
+}
+
+.logofooter{
+    /* background-color: yellow; */
+    padding: 50px;
+}
+
+.socialmedia{
+    /* background-color: blue; */
+    padding: 50px;
+}
+
+.socialmediaicon{
+    /* background-color: yellow; */
+    padding: 20px;
+}
+
+.socialmediaicon img{
+   margin: 0px 20px;
+   cursor: pointer;
+}
+
+.socialmedia p{
+    margin-top: 20px;
+}
+
+.menubtn{
+    display: none;
+}
+
+#ourcreationheader{
+    display: none;
+}
+
+
+/* media que  */
+
+@media (max-width: 375px) {
+    /* nav{
+        background-color: black;
+        opacity: 0.9;
+        position: fixed;
+        top: 0px;
+        left: 0px;
+        height: 100vh;
+        width: 100%;
+        z-index: 1;
+        
+    } */
+     .nav-link{
+         display: none;
+         margin-top: 50px;
+         background-color: blue; 
+         margin-left: 40px;
+         width: 100px;
+         text-align: center; 
+         visibility: hidden; 
+     } 
+
+    .menubtn {         
+       display: none;
+       font-size: 22px;
+       cursor: pointer;
+       position: absolute;
+       top: 30px;
+       left: 320px;
+       color: white;
+    }
+   
+    #logo{
+        width: 160px;
+        padding: 40px;
+    }
+   
+    .immersive{
+        width: 300px;
+        height: 300px;
+        /* background-color: yellow; */
+        margin-left: -20px;
+    }
+
+    .immersive h1{
+        font-size: 40px;
+        padding: 10px;
+    }
+    .loop-header{
+        height: 70vh;
+    } 
+
+   /* section 2  */ 
+
+    /* /* .vr{
+        display: none;
+        justify-content: space-between;
+        align-items: center;
+    } */
+
+    .vrguy img{
+        padding: 30px;
+        width: 300px;
+        margin-left: 10px;
+        margin-top: -220px;
+    }
+
+    .intractive{
+        /* background-color: rgb(255, 0, 0); */
+        position: relative;
+        top: 250px;
+        left: -340px;
+        bottom: 0px;
+        z-index: -1;
+        padding: 50px;
+        width: fit-content;
+    }
+
+    .intractive h1{
+        font-family: var(--Alata);
+        font-size: 40px;
+        text-align: center;
+    }
+
+    .intractive p {
+        font-family: var(--Josefin);
+        font-size: 16px;
+        text-align: center;
+    } 
+   
+        /* Our Creation  */
+
+        .ourcreationheader{
+        /* background-color: blueviolet; */
+        display: inline-block;
+        align-items: center;
+        justify-content: space-between;
+        /* margin: 80px; */
+        margin-left: 100px;
+        margin-top: 220px;
+    }
+
+    .ourcreationheader h1{
+        font-family: var(--Alata);
+        font-size: 30px;
+        text-align: center;
+    }
+    .ourcreationheader a{
+        font-family: var(--Alata);
+        padding:8px 20px;
+        color: black;
+        border: 1px solid black;
+        letter-spacing: 4px;
+        text-decoration: none;        
+        display: none;
+    }
+
+    .ourcreationheader a:hover{
+        background-color: black;
+        color: white;
+        transition-delay: 1s ease-in-out ;
+    }
+   
+   /* Section 4 box  */
+
+    .creation-one-two{
+        /* background-color: blueviolet; */
+        margin-top: -90px;
+    }
+
+
+    .creation-box-one{
+        display: inline-block;
+        justify-content: center;
+        align-items: center;
+        
+    }
+
+    .creation-box-two{
+        display: inline-block;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .box{
+        margin: 40px;
+    }
+
+    .deepEarth{
+        width: 300px;
+        height: 120px;
+        background-color: aquamarine;
+        background-image: url(../LoopStudio/loopstudios-landing-page-main/images/mobile/image-deep-earth.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+
+    .nightArcade{
+        width: 300px;
+        height: 120px;
+        background-color: red;
+        background-image: url(./loopstudios-landing-page-main/images/mobile/image-night-arcade.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    .Soccer{
+        width: 300px;
+        height: 120px;
+        background-color: brown;
+        background-image: url(./loopstudios-landing-page-main/images/mobile/image-soccer-team.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+         background-position: center;
+    
+    }
+
+    .TheGrid{
+        width: 300px;
+        height: 120px;
+        background-color: burlywood;
+        background-image: url(./loopstudios-landing-page-main/images/mobile/image-grid.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+         background-position: center;
+    }
+
+    .FromUp{
+        width: 300px;
+        height: 120px;
+        background-color: rgb(36, 34, 30);
+        background-image: url(./loopstudios-landing-page-main/images/mobile/image-from-above.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+         background-position: center;
+    }
+
+    .Pocket{
+        width: 300px;
+        height: 120px;
+        background-color: rgb(150, 87, 5);
+        background-image: url(./loopstudios-landing-page-main/images/mobile/image-pocket-borealis.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+         background-position: center;
+    }
+
+    .TheCuriosity{
+    width: 300px;
+        height: 120px;
+        background-color: rgb(15, 15, 14);
+        background-image: url(./loopstudios-landing-page-main/images/mobile/image-curiosity.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+         background-position: center;
+    }
+
+    .makeitfisheye{
+        width: 300px;
+        height: 120px;
+        background-color: rgb(75, 43, 0);
+        background-image: url(./loopstudios-landing-page-main/images/mobile/image-fisheye.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+         background-position: center;
+    }
+
+    .h1{
+        color: rgb(255, 255, 255);
+        font-family: var(--Josefin);
+        /* background-color: yellow; */
+        width: fit-content;
+        padding:60px 20px 0px 20px;
+        font-size: 16px;
+    }
+   
+    #ourcreationheader{
+      display: inline-block;
+       font-family: var(--Alata);
+        padding:8px 20px;
+        color: black;
+        border: 1px solid black;
+        letter-spacing: 4px;
+        text-decoration: none;
+        margin-left:  130px;
+   }
+
+   #ourcreationheader a{
+       color: black;
+       text-decoration: none;
+   }
+
+   #ourcreationheader:hover{
+       background-color: black;
+       color: yellow;
+       text-decoration: none;
+   }
+
+  /* Footer  */
+
+        Footer{
+            background-color: black;
+            margin-top: 100px;
+            display: inline-block;
+            width: 100%;
+        }
+
+        .list{
+            display: inline-block;
+            text-align: center;
+            /* background-color: yellow; */
+            width: fit-content;
+            list-style: none;  
+            margin-left: 80px;
+        }
+
+        .list a{
+            color: white;
+            text-decoration: none;
+            font-family: var(--Alata);
+            margin:0px 20px;
+            text-align: left;
+        }
+        .list li a{
+            margin-top: 30px;
+        }
+
+        .logo-img{
+            padding: 20px;
+            margin-left: 20px;
+        }
+
+        .socialmedia p{
+            color: var(--White);
+            font-family: var(--Alata);
+            text-align: center;
+        }
+
+        .logofooter{
+            /* background-color: yellow; */
+            padding: 50px;
+        }
+
+        .socialmedia{
+            /* background-color: blue; */
+            padding: 20px;
+        }
+
+        .socialmediaicon{
+            /* background-color: yellow; */
+            padding: 20px;
+        }
+
+        .socialmediaicon img{
+        margin: 0px 20px;
+        cursor: pointer;
+        }
+
+        .socialmedia p{
+            margin-top: 20px;
+        }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
